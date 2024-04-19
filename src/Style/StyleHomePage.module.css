@@ -143,7 +143,7 @@ body {
     justify-content: end;
     width: 333px;
     flex-direction: column;
-    background-color: #FFFFFF;
+
 }
 
 .CardMenuTwo span {
@@ -164,8 +164,8 @@ body {
     justify-content: center;
     width: 317px;
     margin-top: 30px;
-    box-shadow: 0 -7px 29px rgba(0, 0, 0, 0.10);
-    background-color: #ffffff;
+
+
     padding: 15px;
 }
 
