@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="770" viewBox="0 0 375 770">
+  <defs>
+    <filter id="Subtraction_799" x="12.5" y="112.5" width="350" height="454" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_5486" x="145" y="206" width="86" height="86" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#0157f0" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_727" x="-22.502" y="674.5" width="420" height="115" filterUnits="userSpaceOnUse">
+      <feOffset dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-3"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-_10_Add_Drugs_Name-Add_Successful">
+      <rect width="375" height="770"/>
+    </clipPath>
+  </defs>
+  <g id="_10_Add_Drugs_Name-Add_Successful" data-name="10 Add Drugs Name-Add Successful" clip-path="url(#clip-_10_Add_Drugs_Name-Add_Successful)">
+    <rect width="375" height="770" fill="#f4f8fd"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Subtraction_799)">
+      <path id="Subtraction_799-2" data-name="Subtraction 799" d="M-2858-2058h-295a19.87,19.87,0,0,1-14.142-5.858A19.87,19.87,0,0,1-3173-2078v-87a8.01,8.01,0,0,0,8-8,8.009,8.009,0,0,0-8-8v-296a19.869,19.869,0,0,1,5.858-14.142A19.868,19.868,0,0,1-3153-2497h295a19.869,19.869,0,0,1,14.142,5.858A19.869,19.869,0,0,1-2838-2477v296a8.009,8.009,0,0,0-8,8,8.01,8.01,0,0,0,8,8v87a19.87,19.87,0,0,1-5.858,14.142A19.87,19.87,0,0,1-2858-2058Z" transform="translate(3193 2612)" fill="#fff"/>
+    </g>
+    <line id="Line_622" data-name="Line 622" x2="318" transform="translate(28.5 439)" fill="none" stroke="#dfdfdf" stroke-linecap="round" stroke-width="1.5" stroke-dasharray="8 5"/>
+    <g id="Group_10463" data-name="Group 10463" transform="translate(-10 7)">
+      <text id="چهارشنبه_19_بهمن_1401" data-name="چهارشنبه 19 بهمن 1401" transform="translate(212 478)" fill="#313131" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-105.111" y="0">1401</tspan><tspan y="0" xml:space="preserve"> بهمن </tspan><tspan y="0">19</tspan><tspan y="0">چهارشنبه </tspan></text>
+      <text id="_14:35" data-name="14:35" transform="translate(212 508)" fill="#313131" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-30.861" y="0">14:35</tspan></text>
+      <text id="تاریخ_ثبت" data-name="تاریخ ثبت" transform="translate(337 478)" fill="#9e9e9e" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-46.371" y="0">تاریخ ثبت</tspan></text>
+      <text id="زمان_ثبت" data-name="زمان ثبت" transform="translate(337 508)" fill="#9e9e9e" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-44.373" y="0">زمان ثبت</tspan></text>
+    </g>
+    <text id="_.تبریک_درخواست_تبادل_جدید_با_موفقیت_ثبت_شد" data-name=".تبریک! درخواست تبادل جدید با موفقیت ثبت شد" transform="translate(188 340)" fill="#313131" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-138.694" y="0">.</tspan><tspan y="0">تبریک! درخواست تبادل جدید با موفقیت ثبت شد</tspan></text>
+    <text id="_شماره_تبادل_149" data-name="#شماره تبادل 149" transform="translate(188 368)" fill="#9e9e9e" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-41.9" y="0">#</tspan><tspan y="0">شماره تبادل </tspan><tspan y="0">149</tspan></text>
+    <rect id="Rectangle_4020" data-name="Rectangle 4020" width="375" height="78" fill="#fff"/>
+    <g id="Group_9742" data-name="Group 9742">
+      <path id="icons8_battery_level" d="M10.821,5a1.4,1.4,0,0,1,1.546,1.267v.422h.515c.31,0,.515.168.515.422V9.645c0,.254-.205.422-.515.422h-.515v.422a1.4,1.4,0,0,1-1.546,1.267H1.546A1.4,1.4,0,0,1,0,10.49V6.267A1.4,1.4,0,0,1,1.546,5Zm0,.845H6.7v5.068h4.122c.31,0,.515-.168.515-.422V9.223h1.031V7.534H11.336V6.267C11.336,6.013,11.131,5.845,10.821,5.845Z" transform="translate(341.603 13)" fill="#1b1d1f"/>
+      <path id="icons8_wi-fi" d="M7.038,3a8.582,8.582,0,0,0-6.01,2.414A.769.769,0,1,0,2.1,6.517,6.981,6.981,0,0,1,7.038,4.535a6.982,6.982,0,0,1,4.939,1.982.769.769,0,1,0,1.071-1.1A8.582,8.582,0,0,0,7.038,3Zm0,2.558A6.121,6.121,0,0,0,2.706,7.364.769.769,0,0,0,3.793,8.451a4.554,4.554,0,0,1,6.49,0A.769.769,0,0,0,11.37,7.364,6.121,6.121,0,0,0,7.038,5.558Zm0,2.558A3.61,3.61,0,0,0,4.368,9.282.769.769,0,1,0,5.5,10.321a2.089,2.089,0,0,1,3.069,0A.769.769,0,1,0,9.707,9.282,3.61,3.61,0,0,0,7.038,8.115Zm0,2.653a.927.927,0,1,0,.927.927A.933.933,0,0,0,7.038,10.769Z" transform="translate(322.808 13.188)" fill="#1b1d1f"/>
+      <path id="icons8_signal_1" d="M9.874,2V12.061h2.187V2ZM7.249,4.406v7.655H9.437V4.406ZM4.625,6.812v5.249H6.812V6.812ZM2,9.218v2.843H4.187V9.218Z" transform="translate(305.603 14.188)" fill="#1b1d1f"/>
+      <text id="_9:41" data-name="9:41" transform="translate(20 25)" fill="#1b1d1f" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">9:41</tspan></text>
+    </g>
+    <g id="Group_10240" data-name="Group 10240" transform="translate(-5406.5 -17612)">
+      <path id="Line_621" data-name="Line 621" d="M15.875,1.25H.125A1.125,1.125,0,0,1,.125-1h15.75a1.125,1.125,0,0,1,0,2.25Z" transform="translate(5427.5 17666.625)" fill="#373e46"/>
+      <path id="Line_622-2" data-name="Line 622" d="M11.375,1.25H.125A1.125,1.125,0,0,1,.125-1h11.25a1.125,1.125,0,0,1,0,2.25Z" transform="translate(5427.5 17661)" fill="#373e46"/>
+      <path id="Line_623" data-name="Line 623" d="M6.875,1.25H.125A1.125,1.125,0,0,1,.125-1h6.75a1.125,1.125,0,0,1,0,2.25Z" transform="translate(5427.5 17672.25)" fill="#373e46"/>
+    </g>
+    <line id="Line_692" data-name="Line 692" x2="375" transform="translate(0 78)" fill="none" stroke="#ececec" stroke-width="1.5"/>
+    <path id="Path" d="M.191,0h160a18.44,18.44,0,0,0-15.24,7.607l-7.413,10.787A18.44,18.44,0,0,1,122.3,26H38.085a18.44,18.44,0,0,1-15.24-7.607L15.431,7.606A18.44,18.44,0,0,0,.19,0Z" transform="translate(107.811)" fill="#272727" fill-rule="evenodd"/>
+    <text id="ثبت_تبادل_جدید_دارو" data-name="ثبت تبادل جدید دارو" transform="translate(188 59)" fill="#373e46" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-56.017" y="0">ثبت تبادل جدید دارو</tspan></text>
+    <g id="Group_10459" data-name="Group 10459">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_5486)">
+        <path id="Path_5486-2" data-name="Path 5486" d="M34,0A34,34,0,1,1,0,34,34,34,0,0,1,34,0Z" transform="translate(154 209)" fill="#0157f0"/>
+      </g>
+      <g id="Ellipse_976" data-name="Ellipse 976" transform="translate(139 194)" fill="none" stroke="#0157f0" stroke-width="2">
+        <circle cx="49" cy="49" r="49" stroke="none"/>
+        <circle cx="49" cy="49" r="48" fill="none"/>
+      </g>
+      <g id="Ellipse_977" data-name="Ellipse 977" transform="translate(124 179)" fill="none" stroke="#eaeaea" stroke-width="1.2">
+        <circle cx="64" cy="64" r="64" stroke="none"/>
+        <circle cx="64" cy="64" r="63.4" fill="none"/>
+      </g>
+      <path id="Subtraction_720" data-name="Subtraction 720" d="M22.4,32a9.6,9.6,0,1,1,6.788-2.811A9.6,9.6,0,0,1,22.4,32Zm-4-11.2a1.6,1.6,0,0,0,0,3.2h8a1.6,1.6,0,1,0,0-3.2ZM7.332,32a.934.934,0,0,1-.933-.934V30.4H6A4.4,4.4,0,0,1,1.6,26V24.4A1.2,1.2,0,0,1,2.781,23.18H2.8a1.192,1.192,0,0,1,.848.351A1.206,1.206,0,0,1,4,24.4V26a1.978,1.978,0,0,0,2,2h.4v-.666a.933.933,0,0,1,1.592-.661l1.868,1.868a.933.933,0,0,1,0,1.318L7.991,31.724A.919.919,0,0,1,7.332,32ZM9.6,19.2a9.6,9.6,0,1,1,9.6-9.6,8.273,8.273,0,0,1-.088,1.264,12.049,12.049,0,0,0-8.247,8.247A8.3,8.3,0,0,1,9.6,19.2ZM5.6,8a1.6,1.6,0,1,0,0,3.2h8a1.6,1.6,0,1,0,0-3.2Zm23.6.8A1.2,1.2,0,0,1,28,7.6V6a1.978,1.978,0,0,0-2-2h-.4v.666A.934.934,0,0,1,24,5.326L22.138,3.459a.932.932,0,0,1,0-1.319L24.005.273A.933.933,0,0,1,25.6.934V1.6H26A4.4,4.4,0,0,1,30.4,6V7.6A1.2,1.2,0,0,1,29.2,8.8Z" transform="translate(171.502 227.004)" fill="#fff"/>
+      <g id="icons8_Plus" transform="translate(198 253)">
+        <path id="Path_5487" data-name="Path 5487" d="M24,14A10,10,0,1,1,14,4,10,10,0,0,1,24,14Z" fill="#06d7a1"/>
+        <path id="Union_476" data-name="Union 476" d="M-10554-17950a.5.5,0,0,1-.5-.5v-4h-4a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,1,.5-.5h4v-4a.5.5,0,0,1,.5-.5h1a.5.5,0,0,1,.5.5v4h4a.5.5,0,0,1,.5.5v1a.5.5,0,0,1-.5.5h-4v4a.5.5,0,0,1-.5.5Z" transform="translate(10567.5 17969.5)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_10462" data-name="Group 10462" transform="translate(0 -5)">
+      <g id="Group_10164" data-name="Group 10164" transform="translate(87 623)">
+        <rect id="Rectangle_122" data-name="Rectangle 122" width="268" height="52" rx="5" fill="#0157f0"/>
+        <text id="بازگشت_به_صفحه_نخست" data-name="بازگشت به صفحه نخست" transform="translate(134 30)" fill="#fff" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="-75.674" y="0">بازگشت به صفحه نخست</tspan></text>
+      </g>
+      <g id="Group_10461" data-name="Group 10461">
+        <g id="Rectangle_122-2" data-name="Rectangle 122" transform="translate(20 623)" fill="none" stroke="#0157f0" stroke-width="1.5">
+          <rect width="52" height="52" rx="5" stroke="none"/>
+          <rect x="0.75" y="0.75" width="50.5" height="50.5" rx="4.25" fill="none"/>
+        </g>
+        <path id="icons8_share_3" d="M19.921,5a3.079,3.079,0,0,0-2.967,3.888l-.055.027L10.56,12.083l-.055.027a3.078,3.078,0,1,0,0,3.78l.053.027L16.9,19.086l.052.026a3.09,3.09,0,1,0,.683-1.247l-.1-.05L11.2,14.646l-.1-.049a3.079,3.079,0,0,0,0-1.193l.1-.05,6.338-3.169.1-.049A3.079,3.079,0,1,0,19.921,5Z" transform="translate(31 635)" fill="#0157f0"/>
+      </g>
+    </g>
+    <g id="Group_10285" data-name="Group 10285" transform="translate(0 -849)">
+      <g transform="matrix(1, 0, 0, 1, 0, 849)" filter="url(#Subtraction_727)">
+        <path id="Subtraction_727-2" data-name="Subtraction 727" d="M-5497-17708h375v70h-375Z" transform="translate(5497 18408)" fill="#fff"/>
+      </g>
+      <g id="Group_10257" data-name="Group 10257">
+        <path id="icons8_notification" d="M14.868,4.009a7.824,7.824,0,0,0-7.322,7.879v3.727L6.187,18.35l-.007.015A1.818,1.818,0,0,0,7.8,20.924h4.358a3.077,3.077,0,0,0,6.154,0h4.357A1.818,1.818,0,0,0,24.3,18.365l-.007-.015-1.359-2.734V11.693A7.706,7.706,0,0,0,14.868,4.009Zm.072,1.536a6.141,6.141,0,0,1,6.452,6.147v4.1a.769.769,0,0,0,.08.343L22.9,19.021a.238.238,0,0,1-.232.365H7.8a.238.238,0,0,1-.231-.365h0L9,16.138a.769.769,0,0,0,.08-.343V11.888A6.279,6.279,0,0,1,14.94,5.546ZM13.7,20.924h3.077a1.538,1.538,0,0,1-3.077,0Z" transform="translate(219.692 1562)" fill="#474747"/>
+        <text id="اعلان_ها" data-name="اعلان‌ها" transform="translate(234.999 1600)" fill="#474747" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-15.032" y="0">اعلان‌ها</tspan></text>
+      </g>
+      <g id="Group_7929" data-name="Group 7929" transform="translate(-0.001 835)">
+        <path id="icons8_communication" d="M7.25,5A3.262,3.262,0,0,0,4,8.25V19.227a1.3,1.3,0,0,0,2.02,1.028l2.028-1.475a3.253,3.253,0,0,0,3.2,2.721h6.256l4.475,3.254A1.272,1.272,0,0,0,24,23.727V12.751a3.254,3.254,0,0,0-3.25-3.25H20V8.25A3.262,3.262,0,0,0,16.751,5Zm0,1.5h9.5A1.739,1.739,0,0,1,18.5,8.25v5.5a1.739,1.739,0,0,1-1.75,1.75h-6.5a.75.75,0,0,0-.442.144L5.5,18.779V8.25A1.739,1.739,0,0,1,7.25,6.5Zm1.5,2a.75.75,0,1,0,0,1.5h6.5a.75.75,0,1,0,0-1.5ZM20,11h.75a1.752,1.752,0,0,1,1.75,1.75V23.279l-4.309-3.134A.752.752,0,0,0,17.751,20h-6.5a1.752,1.752,0,0,1-1.75-1.75v-.527L10.495,17h6.256A3.262,3.262,0,0,0,20,13.751ZM8.75,12a.75.75,0,1,0,0,1.5h5a.75.75,0,1,0,0-1.5Z" transform="translate(126.499 726)" fill="#474747"/>
+        <text id="پشتیبانی" transform="translate(141 765)" fill="#474747" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-17.952" y="0">پشتیبانی</tspan></text>
+      </g>
+      <g id="Group_7928" data-name="Group 7928" transform="translate(-0.001 835)">
+        <path id="icons8_user" d="M16,4a5,5,0,1,0,5,5A5.011,5.011,0,0,0,16,4Zm0,1.5A3.5,3.5,0,1,1,12.5,9,3.489,3.489,0,0,1,16,5.5ZM9.989,16A2,2,0,0,0,8,17.989v.761a4.66,4.66,0,0,0,2.653,4.031A11.254,11.254,0,0,0,16,24a11.254,11.254,0,0,0,5.347-1.219A4.833,4.833,0,0,0,23.881,19.5H24V17.989A2,2,0,0,0,22.011,16Zm0,1.5H22.011a.479.479,0,0,1,.49.489V18h0v.75a3.047,3.047,0,0,1-1.878,2.719A9.967,9.967,0,0,1,16,22.5a9.967,9.967,0,0,1-4.622-1.031A3.047,3.047,0,0,1,9.5,18.75v-.761A.478.478,0,0,1,9.989,17.5Z" transform="translate(32 727)" fill="#474747"/>
+        <text id="پروفایل" transform="translate(48 765)" fill="#474747" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-14.612" y="0">پروفایل</tspan></text>
+      </g>
+      <g id="Group_10258" data-name="Group 10258">
+        <text id="منوی_اصلی" data-name="منوی اصلی" transform="translate(327.999 1600)" fill="#373e46" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-24.333" y="0">منوی اصلی</tspan></text>
+        <path id="Union_466" data-name="Union 466" d="M-5477.557-17688h-17.313v-9.117l-1.018,1.018-1.112-1.113,10.788-10.787,10.786,10.787-1.112,1.113-1.018-1.018v9.117Zm-8.656-17.773h0l-7.083,7.082v9.117h14.166v-9.117l-7.083-7.082Z" transform="translate(5814.269 19274)" fill="#474747"/>
+      </g>
+    </g>
+  </g>
+</svg>

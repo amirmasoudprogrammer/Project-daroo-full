@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19.186" viewBox="0 0 19 19.186">
+  <g id="Group_10144" data-name="Group 10144" transform="translate(-321 -889)">
+    <path id="icons8_comments" d="M6.6,7A2.609,2.609,0,0,0,4,9.6v6.8A2.609,2.609,0,0,0,6.6,19h.6v2.2a1.022,1.022,0,0,0,1.6.8l4-3h4.6A2.609,2.609,0,0,0,20,16.4V9.6A2.609,2.609,0,0,0,17.4,7Zm0,1.2H17.4a1.391,1.391,0,0,1,1.4,1.4v6.8a1.391,1.391,0,0,1-1.4,1.4H12.6a.6.6,0,0,0-.36.12L8.4,20.8V18.4a.6.6,0,0,0-.6-.6H6.6a1.391,1.391,0,0,1-1.4-1.4V9.6A1.391,1.391,0,0,1,6.6,8.2Zm2,2.8a.6.6,0,1,0,0,1.2h6.8a.6.6,0,1,0,0-1.2Zm0,2.8a.6.6,0,1,0,0,1.2h5.2a.6.6,0,1,0,0-1.2Z" transform="translate(317 886)" fill="#1471ea"/>
+    <g id="Group_10143" data-name="Group 10143">
+      <circle id="Ellipse_1414" data-name="Ellipse 1414" cx="2.5" cy="2.5" r="2.5" transform="translate(332 892)" fill="#ff064e"/>
+      <path id="Ellipse_1414_-_Outline" data-name="Ellipse 1414 - Outline" d="M2.5,0A2.5,2.5,0,1,0,5,2.5,2.5,2.5,0,0,0,2.5,0m0-3A5.5,5.5,0,1,1-3,2.5,5.506,5.506,0,0,1,2.5-3Z" transform="translate(332 892)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

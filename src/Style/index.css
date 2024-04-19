@@ -1,0 +1,11 @@
+:root {
+  font-family: IRANSans,Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+}
+a {
+  text-decoration: inherit;
+  color: inherit;
+}

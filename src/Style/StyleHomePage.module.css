@@ -1,0 +1,208 @@
+body {
+    background-color: #F5F6F7;
+}
+
+.cardHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.headerPages {
+    background-image: url("../assets/img/Group 7927.png");
+    width: 380px;
+    height: 179px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    direction: rtl;
+    background-size: 100% 100%;
+}
+
+.itemone {
+
+}
+
+.itemone .itemLink {
+    display: flex;
+}
+
+.itemone .itemLink img {
+    width: 23px;
+    height: 24px;
+}
+
+.itemone .itemLink span {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.itemtwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.itemtwo .itemLink1 img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: flex;
+    margin-left: 7px;
+}
+
+.itemtwo .itemLink2 img {
+    width: 19px;
+    height: 19px;
+}
+
+.itemtwo .itemLink3 img {
+    width: 24px;
+    height: 14px;
+    margin-right: 15px;
+}
+
+.CardMenu {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    width: 342px;
+    height: 230px;
+    background-color: #FFFFFF;
+    padding: 11px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    margin-top: -60px;
+}
+
+.CardMenu .ItemMenuOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 15px;
+}
+
+.CardMenu .ItemMenuOne span {
+    font-size: 12px;
+    color: #3E3E3E;
+}
+
+.CardMenu .ItemMenuOne .itemPlus {
+    background-color: #0856DD;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.CardMenu .ItemMenuOne .itemPlus span {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -3px;
+    cursor: pointer;
+}
+
+.ItemPaging {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    padding: 15px;
+    width: 337px;
+}
+
+.BannerItem {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BannerItem a img{
+
+}
+
+.CardMenuTwo {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 333px;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.CardMenuTwo span {
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.cardPagingMuenu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    direction: rtl;
+}
+
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 317px;
+    margin-top: 30px;
+    box-shadow: 0 -7px 29px rgba(0, 0, 0, 0.10);
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.Footer .FooterMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Footer .FooterMenu li {
+    list-style: none;
+}
+.Footer .FooterMenu li a .itemFooter svg{
+    font-size: 25px;
+}
+.Footer .FooterMenu li:hover a .itemFooter svg{
+
+    color: #0856DD;
+}
+.Footer .FooterMenu li:hover a .itemFooter  span{
+    color: #0856DD;
+}
+
+.Footer .FooterMenu li Link {
+
+}
+
+.Footer .FooterMenu li a .itemFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: all .2s linear;
+}
+.Footer .FooterMenu li a .itemFooter span{
+    font-size: 10px;
+    padding-top: 5px;
+    color: #3E3E3E;
+}

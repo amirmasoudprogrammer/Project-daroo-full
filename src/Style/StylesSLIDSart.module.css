@@ -1,0 +1,37 @@
+.slideStart {
+
+
+}
+
+.slideStart .indicators {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    top: 577px;
+    bottom: 0;
+}
+
+.slideStart .indicators .indicator {
+    background-color: #1471EA;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border:none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.indicator_active{
+    background-color: #D4D4D4;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border:none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
