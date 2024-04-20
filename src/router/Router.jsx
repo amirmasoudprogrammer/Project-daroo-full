@@ -7,6 +7,7 @@ import {dataCards, dataMenu ,dataMenuPaging} from "../ImgData/DataCard.js";
 
 
 
+
 const Router = () => {
 
     return (
@@ -15,6 +16,7 @@ const Router = () => {
             <Routes>
                 <Route path="/" element={<StartWeb data={dataCards}/>}/>
                 <Route path="/HomePage" element={<HomePages data={dataMenu} dataMenuPaging={dataMenuPaging}/>}/>
+
             </Routes>
 
         </>
