@@ -1,18 +1,22 @@
 import React from 'react';
-import {useParams} from "react-router-dom";
+import {useParams  } from "react-router-dom";
 
 
-const Drug_exchange = ({DataPageing, setName}) => {
+
+const Drug_exchange = ({DataPageing,setName}) => {
     const {id} = useParams()
+    console.log(id)
     const dataApi = DataPageing(+id)
     const {title} = dataApi
     setName(title)
-    return (
-        <div>
-            <h1>page - {id}</h1>
 
-        </div>
-    );
+    return (
+        <>
+            <h1></h1>
+
+        </>
+    )
+        ;
 };
 
 export default Drug_exchange;

@@ -5,7 +5,7 @@ import styles from "../Style/StylesCardMenu.module.css"
 const ItemCardMenu = ({data}) => {
     return (
       <>
-       <Link to={`/HomePage/${data.id}`} className={styles.Cards}>
+       <Link to={`/homepage/Pages/${data.id}`} className={styles.Cards}>
            <div className={styles.Images}>
                <img src={data.img} alt="imgcard"/>
            </div>

@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
 import Router from "./router/Router.jsx";
-import RouterT from "./router/RouterT.jsx";
+
 
 
 const App = () => {
-
+const [names , setNames] = useState(false)
 
     return (
         <div>
+
             <Router/>
-            <RouterT />
 
         </div>
     );
