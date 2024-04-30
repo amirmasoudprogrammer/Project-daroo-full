@@ -9,9 +9,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 375px;
     height: 78px;
-    direction: rtl;
+    direction: rtl;background-color: #ffffff;
+    padding: 10px;
+    box-shadow:0 6px 10px  0 #eeee;
 }
 
 .Headers .headerIcons {
@@ -31,8 +32,6 @@
 }
 
 .Footers {
-    width: 375px;
-    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,3 +63,4 @@
     font-size: 10px;
     margin-top: 5px;
 }
+

@@ -1,0 +1,221 @@
+body{
+    transition: all .2s linear;
+}
+.CardRegistration {
+    direction: rtl;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .3s linear;
+}
+
+.CardRegistration .IMGpages {
+    background-color: #F5F6FB;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.itemsRegistration {
+    width: 335px;
+    margin-bottom: -6px;
+    background-color: #ffffff;
+}
+
+.itemsRegistration .textItem {
+    padding-right: 15px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+
+
+}
+
+.itemsRegistration .textItem span {
+    font-size: 14px;
+    color: #373E46;
+}
+
+.itemsRegistration .inputItems {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputItems .inputtext {
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #F1F1F1;
+    padding: 15px;
+    width: 299px;
+    height: 110px;
+    background-color: #F2F7F9;
+}
+
+.itemsRegistration .LinkesItems {
+    display: flex;
+    padding: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.itemsRegistration .LinkesItems a {
+    border: 2px dashed #E4E4E4;
+    display: flex;
+    color: #373E46;
+    width: 299px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #F2F7F9;
+}
+
+.itemsRegistration .LinkesItems a span {
+    font-size: 12px;
+    color: #373E46;
+}
+
+.itemsRegistration .LinkesItems a .plusItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    background-color: #373E46;
+    border-radius: 50px;
+}
+
+.itemsRegistration .LinkesItems a .plusItem span {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -2px;
+    margin-right: 1px;
+}
+
+.itemsRegistration .itemdaroo {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+
+.itemsRegistration .itemdaroo .CardItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 299px;
+    margin-top: 10px;
+}
+
+.itemsRegistration .itemdaroo .CardItems .textitem {
+
+}
+
+.itemsRegistration .itemdaroo .CardItems .textitem .details {
+    display: flex;
+    align-items: center;
+}
+
+.itemsRegistration .itemdaroo .CardItems .textitem .details span {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.itemsRegistration .itemdaroo .CardItems .textitem .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemsRegistration .itemdaroo .CardItems .textitem .items span {
+    font-size: 12px;
+    padding: 5px;
+    color: #B2B2B2;
+    margin-right: 5px;
+}
+
+.itemsRegistration .itemdaroo .CardItems .textitem .items li {
+    text-align: center;
+    color: #2ED173;
+    border-radius: 50px;
+    width: 5px;
+    height: 5px;
+    list-style: none;
+    background-color: #2ED173;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textEndPages {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    width: 335px;
+    height: 160px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.textEndPages span{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #373E46;
+}
+.textEndPages .inputs{
+    width: 299px;
+    height: 48px;
+    background-color: #F2F7F9;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+
+}
+.textEndPages .inputs img{
+    margin-right: 20px;
+}
+.textEndPages .inputs input{
+    outline: none;
+    border: none;
+    margin-right: 30px;
+}
+.linkeItems{
+    width: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.linkeItems .Linkes{
+    width: 335px;
+    background-color: #0157F0;
+    text-align: center;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}

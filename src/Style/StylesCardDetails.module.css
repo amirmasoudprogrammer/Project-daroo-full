@@ -1,0 +1,111 @@
+.CardDetailsitem {
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    transition: all .3s linear;
+    margin-right: -24px;
+}
+
+.CardDetailsitem .IMGNexts {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+    margin-right: 1px;
+}
+
+.CardDetailsitem:hover .IMGNexts {
+    opacity: 1;
+    visibility: visible;
+    margin-right: 10px;
+}
+
+.CardDetailsitem .CardBox {
+    background-color: #F2F7F9;
+    width: 335px;
+    height: 196px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 20px;
+    justify-content: space-evenly;
+    border: 1px solid #efe8e8;
+    border-radius: 10px;
+
+}
+
+.CardDetailsitem .CardBox .imgAndText {
+    display: flex;
+    align-items: center;
+
+}
+
+.CardDetailsitem .CardBox .imgAndText .imgPro {
+    display: flex;
+}
+
+.CardDetailsitem .CardBox .imgAndText .TextItems {
+    margin-right: 10px;
+}
+
+.CardDetailsitem .CardBox .imgAndText .TextItems span {
+    font-size: 13px;
+}
+
+.CardDetailsitem .CardBox .imgAndText .TextItems p {
+    font-size: 11px;
+    color: #B2B2B2;
+}
+
+.CardDetailsitem .CardBox .textComment {
+    margin-top: 5px;
+}
+
+.CardDetailsitem .CardBox .textComment span {
+    font-size: 13px;
+}
+
+.CardDetailsitem .CardBox .ItemText1 {
+
+}
+
+.CardDetailsitem .CardBox .ItemText1 .ITEMdet {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.CardDetailsitem .CardBox .ItemText1 .ITEMdet span {
+    font-size: 13px;
+}
+
+.CardDetailsitem .CardBox .ItemText1 .ITEMdet li {
+    font-size: 13px;
+    color: #2ED173;
+    text-align: center;
+}
+
+.CardDetailsitem .CardBox .cardsEnds {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.CardDetailsitem .CardBox .cardsEnds .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CardDetailsitem .CardBox .cardsEnds .items span {
+    font-size: 12px;
+    margin-right: 8px;
+
+}
+
+.CardDetailsitem .CardBox .cardsEnds .items:nth-child(2) span {
+    color: #B2B2B2;
+}

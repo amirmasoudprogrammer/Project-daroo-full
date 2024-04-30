@@ -1,0 +1,196 @@
+.PageMedicl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ItemsPages {
+    background-image: url("../assets/img/Group 10479.svg");
+    background-size: 100% 100%;
+    width: 375px;
+    height: 339.19px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.ItemsPages .menuItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ItemsPages .imgitems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+    color: white;
+}
+
+.ItemsPages .imgitems span {
+    font-size: 14px;
+}
+
+.ItemsPages .textNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 335px;
+
+}
+
+.ItemsPages .textNumber .itemtext {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    color: white;
+}
+
+.ItemsPages .textNumber .itemtext span {
+    padding: 2px;
+}
+
+.ItemsPages .textNumber .itemtext span:nth-child(1) {
+    padding: 2px;
+}
+
+.ItemsPages .textNumber .border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ItemsPages .textNumber .border:nth-child(1) {
+    margin-right: 10px;
+}
+
+.ItemsPages .textNumber .border:nth-child(3) {
+
+    margin-left: 10px;
+}
+
+.ItemsPages .inputSearch {
+    background-color: #FFFFFF;
+    width: 335px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    border-radius: 24px;
+    margin-top: 25px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.ItemsPages .inputSearch .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ItemsPages .inputSearch .icons:nth-child(3) {
+    width: 30px;
+    height: 30px;
+    background-color: #2ED173;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    margin-right: 10px;
+}
+
+.ItemsPages .inputSearch .inputs {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ItemsPages .inputSearch .inputs input {
+    outline: none;
+    border: none;
+    margin-right: 5px;
+}
+
+.itemimg {
+    margin-top: -15px;
+}
+.mainitems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    width: 368px;
+}
+.TextPage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 365px;
+    direction: rtl;
+    padding: 20px;
+}
+
+.TextPage .items {
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+
+}
+
+.TextPage .items span {
+    font-size: 14px;
+    margin-right: 6px;
+}
+
+.menuslidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+
+}
+
+.menuslidebar .itemslide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    background-color: #F7FAFB;
+    height: 40px;
+    border: 1px solid #E4E4E4;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.menuslidebar .itemslide img {
+    margin-right: 10px;
+}
+
+.menuslidebar .itemslide span {
+    font-size: 12px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 365px;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.title span {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.title img {
+
+}

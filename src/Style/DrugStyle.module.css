@@ -1,0 +1,287 @@
+body {
+    background-color: #F5F6FB;
+}
+
+.Pageing {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.Wrapper {
+    height: 60px;
+    width: 335px;
+    display: flex;
+    border: 1px solid #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    overflow-y: auto;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 36px;
+    border-radius: 3px;
+}
+
+.Wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.Wrapper .items {
+    text-align: center;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px;
+
+}
+
+.Wrapper .active {
+    background-color: #0157F0;
+    color: #fcf6f6;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: center;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px;
+
+    padding: 10px;
+}
+
+.Wrapper .items a {
+    font-size: 13px;
+    color: #427de8;
+    transition: all .3s linear;
+    padding-left: 12px;
+    padding: 10px;
+    font-weight: 100;
+
+}
+
+.Wrapper .items:hover a {
+    background-color: #0157F0;
+    color: #fcf6f6;
+    border-radius: 8px;
+}
+
+.filter {
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    justify-content: space-between;
+    width: 332px;
+    height: 17px;
+    margin-top: 28px;
+}
+
+.filter .itemfilters1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #313131;
+}
+
+.filter .itemfilters1 span {
+    font-size: 12px;
+}
+
+.filter .itemfilters1 p {
+    font-size: 12px;
+}
+
+.filter .itemfilterstest {
+    display: flex;
+}
+
+.filter .itemfilterstest .itemfilters2 {
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+.filter .itemfilterstest .itemfilters2 a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter .itemfilterstest .itemfilters2 a span {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+
+.filter .itemfilterstest .itemfilters3 {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.filter .itemfilterstest .itemfilters3 a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.filter .itemfilterstest .itemfilters3 a span {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.itemCARDdata {
+    border-bottom: 1px solid #ECECEC;
+}
+.itemCARDdata  .ItemlINKE{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:20px;
+}
+.itemCARDdata .ItemlINKE .itemsCards{
+    width: 299px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #E4E4E4;
+    background-color: #F2F7F9;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.DataDrugs {
+    background-color: #ffffff;
+    width: 335px;
+    padding: 10px;
+    margin-top: 26px;
+
+}
+.DataDrugs .textCard {
+    margin-top: 20px;
+    direction: rtl;
+    border-bottom: 1px solid #ECECEC;
+    padding: 8px;
+    padding-bottom: 21px;
+}
+
+.DataDrugs .textCard .textCardDrug {
+    display: flex;
+    font-size: 13px;
+}
+
+.DataDrugs .textCard .textCardDrug span {
+    color: #B3B7C0;
+    font-weight: 100;
+}
+
+.DataDrugs .textCard .textCardDrug p {
+    color: #373E46;
+}
+
+.DataDrugs .textCard .textCardDrugEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.DataDrugs .textCard .textCardDrugEnd .itemtext {
+    display: flex;
+}
+
+.DataDrugs .textCard .textCardDrugEnd .itemtext span {
+    font-size: 13px;
+    color: #383838;
+}
+
+.DataDrugs .textCard .textCardDrugEnd .itemtext li {
+    color: #2ED173;
+    text-align: center;
+    width: 12px;
+}
+
+.DataDrugs .buttons {
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.DataDrugs .buttons .buttontext1 {
+    display: flex;
+}
+
+.DataDrugs .buttons .buttontext1 span {
+    font-size: 11px;
+    color: #B3B7C0;
+}
+
+.DataDrugs .buttons .buttontext1 p {
+    font-size: 11px;
+    color: #B3B7C0;
+}
+
+.DataDrugs .buttons .buttontext2 {
+    display: flex
+}
+
+.DataDrugs .buttons .buttontext2 span {
+    font-size: 11px;
+    color: #B3B7C0;
+    margin-right: 10px;
+}
+
+.DataDrugs .buttons .buttonsitem {
+    display: flex;
+    width: 100px;
+    height: 28px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0157F0;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.DataDrugs .buttons .buttonsitem a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.DataDrugs .buttons .buttonsitem a svg{
+    margin-right: 8px;
+}
+
+.DataDrugs .buttons .buttonClick{
+    background-color: #0157F0;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 3px 8px #1471EA;
+    cursor: pointer;
+}
+.DataDrugs .buttons .buttonClick span{
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6px;
+    color: white;
+
+}

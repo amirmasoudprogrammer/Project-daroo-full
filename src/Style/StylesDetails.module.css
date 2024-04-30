@@ -1,0 +1,207 @@
+.Details {
+    margin-top: 30px;
+}
+
+.Details .DetailsData {
+
+}
+
+.Details .DetailsData .cardDetail {
+
+}
+
+hr {
+    border: #decaca;
+}
+
+.Details .DetailsData .icons {
+    width: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+}
+
+.Details .textCard {
+    margin-top: 20px;
+    direction: rtl;
+    border-bottom: 1px solid #ECECEC;
+    padding: 8px;
+    padding-bottom: 21px;
+}
+
+.Details .textCard .textCardDrug {
+    display: flex;
+    font-size: 13px;
+}
+
+.Details .textCard .textCardDrug span {
+    color: #B3B7C0;
+    font-weight: 100;
+}
+
+.Details .textCard .textCardDrug p {
+    color: #373E46;
+}
+
+.Details .textCard .textCardDrugEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.Details .textCard .textCardDrugEnd .itemtext {
+    display: flex;
+}
+
+.Details .textCard .textCardDrugEnd .itemtext span {
+    font-size: 13px;
+    color: #383838;
+}
+
+.Details .textCard .textCardDrugEnd .itemtext li {
+    color: #2ED173;
+    text-align: center;
+    width: 12px;
+}
+
+.IMGDetailPro {
+    display: flex;
+    direction: rtl;
+    align-items: normal;
+    justify-content: flex-start;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.IMGDetailPro .imgCarda {
+    display: flex;
+}
+
+.IMGDetailPro .textimgCards {
+    margin-right: 10px;
+}
+
+.IMGDetailPro .textimgCards .Titleimg {
+    font-size: 13px;
+}
+
+.IMGDetailPro .textimgCards .Titleimg p {
+    font-size: 13px;
+}
+
+.IMGDetailPro .textimgCards .textImgTEM {
+    display: flex;
+    color: #B2B2B2;
+    font-size: 11px;
+    align-items: center;
+}
+
+.IMGDetailPro .textimgCards .textImgTEM li {
+    margin-right: 10px;
+    color: #2ED173;
+    font-size: 15px;
+}
+
+.itemDetail {
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.itemDetail .textDetail {
+    display: flex;
+}
+
+.itemDetail .textDetail span {
+    font-size: 11px;
+    color: #B2B2B2;
+}
+
+.itemDetail .textDetail p {
+    font-size: 11px;
+
+}
+
+.itemDetail .itemTextDetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemDetail .itemTextDetail span {
+    color: #B2B2B2;
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.buttonDetail {
+    margin-top: 50px;
+    direction: rtl;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.buttonDetail .NumberText{
+
+}
+.buttonDetail .NumberText span{
+    margin-left: 10px;
+}
+
+.buttonDetail .LinkeButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #0157F0;
+    width: 335px;
+    height: 46px;
+    border-radius: 6px;
+
+}
+
+.buttonDetail .LinkeButtons a {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttonDetail .LinkeButtons a .plus {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.buttonDetail .LinkeButtons a .plus span {
+    color: #0157F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+
+.buttonDetail .LinkeButtons a span {
+    margin-right: 10px;
+}
+.CommentItem{
+
+}
+.CommentItem .CardDetail{
+
+
+}

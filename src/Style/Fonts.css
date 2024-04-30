@@ -1,24 +1,24 @@
 @font-face {
     font-family: IRANSans;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 100;
     src: url('../assets/Fonts/IRAN.woff') format('woff'); /* All Major Browsers */
 }
 @font-face {
     font-family: IRANSans;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 100;
     src: url('../assets/Fonts/IRAN_SemiBold.woff') format('woff'); /* All Major Browsers */
 }
 @font-face {
     font-family: IRANSans;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 100;
     src: url('../assets/Fonts/IRANBlack.woff') format('woff'); /* All Major Browsers */
 }
 @font-face {
     font-family: IRANSans;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 100;
     src: url('../assets/Fonts/IRANBlack.woff') format('woff'); /* All Major Browsers */
 }

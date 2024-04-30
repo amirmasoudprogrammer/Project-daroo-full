@@ -1,0 +1,145 @@
+.Modale {
+    position: fixed;
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+}
+
+.Modale .menuDashbord {
+    background-color: #FFFFFF;
+    width: 380px;
+    height: 456px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  transition: all .3s linear;
+
+}
+
+
+.itemImgClose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.itemNameDaroo {
+    padding-right: 20px;
+}
+
+.itemNameDaroo span {
+    font-size: 14px;
+    color: #313131;
+    font-weight: 100;
+}
+
+.NameDaroo {
+    margin-top: 20px;
+}
+
+.NameDaroo span {
+    font-size: 13px;
+}
+
+.NameDaroo .formNameDaroo {
+    width: 335px;
+    height: 48px;
+    background-color: #F2F7F9;
+    display: flex;
+    align-items: center;
+    border: 1px solid #F1F1F1;
+    border-radius: 10px;
+}
+
+.NameDaroo .formNameDaroo img {
+
+}
+
+.NameDaroo .formNameDaroo input {
+    outline: none;
+    border: none;
+    background-color: #F2F7F9;
+    margin-right: 15px;
+    width: 335px;
+    height: 48px;
+}
+
+.forms {
+    padding: 10px;
+
+}
+
+.forms .iTemform {
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.forms .iTemform label {
+    font-size: 13px;
+
+}
+
+.forms .iTemform .iteminput {
+    display: flex;
+    width: 130px;
+    height: 48px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F7F9;
+
+}
+
+.forms .iTemform .iteminput img {
+    margin-right: 10px;
+}
+
+.forms .iTemform .iteminput input {
+    outline: none;
+    border: none;
+    width: 130px;
+    height: 48px;
+    background-color: #F2F7F9;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.itemLinkes {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.itemLinkes .LinkeItems {
+    width: 272px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0157F0;
+    border-radius: 6px;
+}
+
+.itemLinkes .LinkeItems a {
+    color: white;
+}
+
+.itemLinkes .iconsacn {
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0157F0;
+    border-radius: 6px;
+}
