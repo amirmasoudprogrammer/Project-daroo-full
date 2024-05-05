@@ -95,27 +95,10 @@ body {
     color: #3E3E3E;
 }
 
-.CardMenu .ItemMenuOne .itemPlus {
-    background-color: #0856DD;
-    padding: 10px;
+.CardMenu .ItemMenuOne .itemPlus{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 17px;
-    height: 17px;
-    border-radius: 50px;
-    text-align: center;
-}
-
-.CardMenu .ItemMenuOne .itemPlus span {
-    color: white;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: -3px;
-    cursor: pointer;
 }
 
 .ItemPaging {
@@ -141,14 +124,17 @@ body {
     display: flex;
     align-items: end;
     justify-content: end;
-    width: 333px;
+    width: 361px;
     flex-direction: column;
+    height: 277px;
 
 }
 
-.CardMenuTwo span {
+.CardMenuTwo .itemtitle {
     font-size: 13px;
-    font-weight: 200;
+    font-weight: bold;
+    margin-right: 10px;
+
 }
 
 .cardPagingMuenu {
@@ -156,17 +142,21 @@ body {
     grid-template-columns: auto auto auto auto;
     width: 100%;
     direction: rtl;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 15px 15px 0 0;
+
 }
 
 .Footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 317px;
-    margin-top: 30px;
-
-
+    width: 361px;
+    margin-top: 15px;
+    box-shadow: 0 -4px 11px -1px rgba(0,0,0,0.15);
     padding: 15px;
+    background-color: #FFFFFF;
 }
 
 .Footer .FooterMenu {
@@ -179,6 +169,13 @@ body {
 .Footer .FooterMenu li {
     list-style: none;
 }
+.Footer .FooterMenu .normal{
+    background-color: white;
+}
+.Footer .FooterMenu .actives{
+    color: white;
+}
+
 .Footer .FooterMenu li a .itemFooter svg{
     font-size: 25px;
 }

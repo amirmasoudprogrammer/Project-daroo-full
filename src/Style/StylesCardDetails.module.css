@@ -103,7 +103,7 @@
 .CardDetailsitem .CardBox .cardsEnds .items span {
     font-size: 12px;
     margin-right: 8px;
-
+    color: #0856DD;
 }
 
 .CardDetailsitem .CardBox .cardsEnds .items:nth-child(2) span {

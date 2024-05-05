@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "../Style/headerFooter.module.css";
 import {Link} from "react-router-dom";
 import svgICON3 from "../assets/img/Union 466.svg";
-import svgICON4 from "../assets/img/icons8_notification.svg";
+import svgICON4 from "../assets/img/icons8_notifications.svg";
 import svgICON5 from "../assets/img/icons8_communication.svg";
 import svgICON6 from "../assets/img/icons8_user.svg";
 

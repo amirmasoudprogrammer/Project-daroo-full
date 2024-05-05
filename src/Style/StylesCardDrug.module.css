@@ -23,19 +23,26 @@
 .cards .card .texts {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
-.cards .card .texts span {
+.cards .card .texts .textitems {
+padding-right: 10px;
+}
+.cards .card .texts .textitems span{
     font-size: 12px;
     color: #aba7a7;
     direction: rtl;
-    margin-left: 15px;
     font-weight:normal;
 }
-
-.cards .card .texts li {
+.cards .card .texts .liliste  {
+padding-right: 10px;
+}
+.cards .card .texts .liliste .items{
     list-style: none;
     color: #2ED173;
-    margin-left: 10px;
+    width: 6px;
+    height: 6px;
+    background-color: #2ED173 ;
+    border-radius: 24px;
 }

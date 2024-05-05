@@ -1,24 +1,20 @@
 @font-face {
     font-family: IRANSans;
     font-style: normal;
-    font-weight: 100;
-    src: url('../assets/Fonts/IRAN.woff') format('woff'); /* All Major Browsers */
+    src: url('../assets/Fonts/01-IRANSansFaNum-Light.ttf') format('ttf'); /* All Major Browsers */
 }
 @font-face {
     font-family: IRANSans;
     font-style: normal;
-    font-weight: 100;
-    src: url('../assets/Fonts/IRAN_SemiBold.woff') format('woff'); /* All Major Browsers */
+    src: url('../assets/Fonts/02-IRANSansFaNum-Regular.ttf') format('ttf'); /* All Major Browsers */
 }
 @font-face {
     font-family: IRANSans;
     font-style: normal;
-    font-weight: 100;
-    src: url('../assets/Fonts/IRANBlack.woff') format('woff'); /* All Major Browsers */
+    src: url('../assets/Fonts/03-IRANSansFaNum-Bold.ttf') format('ttf'); /* All Major Browsers */
 }
 @font-face {
     font-family: IRANSans;
     font-style: normal;
-    font-weight: 100;
-    src: url('../assets/Fonts/IRANBlack.woff') format('woff'); /* All Major Browsers */
+    src: url('../assets/Fonts/IRANSansFaNum_Medium.ttf') format('tff'); /* All Major Browsers */
 }

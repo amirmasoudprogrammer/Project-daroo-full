@@ -12,7 +12,13 @@ const DetailCard = ({data}) => {
                 </div>
                 <div className={styles.texts}>
                     <span>{text3}</span>
+                    <div className={styles.liliste}>
+                        <p className={styles.items}/>
+                    </div>
                     <span>{text2}</span>
+                    <div className={styles.liliste}>
+                        <p className={styles.items}/>
+                    </div>
                     <span>{text1}</span>
                 </div>
             </div>

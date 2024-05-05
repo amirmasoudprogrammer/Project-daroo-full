@@ -34,8 +34,14 @@
     font-weight:normal;
 }
 
-.cards .card .texts li {
+.cards .card .texts .liliste  {
+    padding-left: 10px;
+}
+.cards .card .texts .liliste .items{
     list-style: none;
     color: #2ED173;
-    margin-left: 10px;
+    width: 6px;
+    height: 6px;
+    background-color: #2ED173 ;
+    border-radius: 24px;
 }

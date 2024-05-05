@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import LogoHOME from "../assets/img/Group 7922.svg"
 import imgUSER from "../assets/img/customer_finge.svg"
 import ALERT from "../assets/img/Group 11207.svg"
@@ -8,13 +8,31 @@ import styles from "../Style/StyleHomePage.module.css"
 import ItemCardMenu from "../Component/ItemCardMenu.jsx";
 import ImagsBanner from "../assets/img/Slider-Fa666.svg"
 import CardMenuItems from "../Component/CardMenuItems.jsx";
-import {BiHomeAlt2} from "react-icons/bi";
-import {IoNotificationsOutline} from "react-icons/io5";
-import {PiChatsDuotone} from "react-icons/pi";
-import {AiOutlineUser} from "react-icons/ai";
 import {Container} from "@mui/material";
+import svgIcons from "../assets/img/Group 10659.svg"
+import svgIcons1 from "../assets/img/Union 3155.svg"
+import svgIcons2 from "../assets/img/icons8_communication1.svg"
+import svgIcons3 from "../assets/img/icons8_notifications.svg"
+import svgIcons4 from "../assets/img/icons8_user1.svg"
 
 const HomePages = ({data, dataMenuPaging}) => {
+    const {pathname} = useLocation()
+    console.log(pathname)
+    let subpage = pathname.split("/")?.[1]
+
+    const Linkness = (type = null) =>{
+          if (subpage === ""){
+              subpage = "homepage"
+          }
+        let classes =styles.normal
+          if (type === subpage){
+               classes =styles.actives
+          }else {
+              classes =styles.normal
+          }
+          return classes
+    }
+
     return (
         <>
             <Container maxWidth="xs">
@@ -47,7 +65,7 @@ const HomePages = ({data, dataMenuPaging}) => {
                         <div className={styles.ItemMenuOne}>
                             <span>دسترسی کاربردی</span>
                             <div className={styles.itemPlus}>
-                                <span>+</span>
+                                <img src={svgIcons} alt=""/>
                             </div>
                         </div>
 
@@ -64,40 +82,36 @@ const HomePages = ({data, dataMenuPaging}) => {
                     </div>
 
                     <div className={styles.CardMenuTwo}>
-                        <span>منو های دیگر</span>
+                        <span className={styles.itemtitle}>منو های دیگر</span>
                         <div className={styles.cardPagingMuenu}>
                             {dataMenuPaging.map(item => <CardMenuItems data={item} key={item.id}/>)}
                         </div>
                     </div>
                     <footer className={styles.Footer}>
                         <ul className={styles.FooterMenu}>
-                            <li>
-                                <Link to="/">
+                            <li className={Linkness("profile")}><Link to="/profile">
                                 <div className={styles.itemFooter}>
-                                    <AiOutlineUser/>
+                                    <img src={svgIcons4} alt=""/>
                                     <span>پروفایل</span>
 
                                 </div>
-                            </Link>
-                            </li>
-                            <li>
-                                <Link to="/">
+                            </Link></li>
+                            <li className={Linkness("Support")}><Link to="/Support">
                                 <div className={styles.itemFooter}>
-                                    <PiChatsDuotone/>
+                                    <img src={svgIcons2} alt=""/>
                                     <span>پشتیبانی</span>
 
                                 </div>
-                            </Link>
-                            </li>
-                            <li><Link to="/">
+                            </Link></li>
+                            <li className={Linkness("Notifications")}><Link to="/Notifications">
                                 <div className={styles.itemFooter}>
-                                    <IoNotificationsOutline/>
+                                    <img src={svgIcons3} alt=""/>
                                     <span>اعلان ها</span>
                                 </div>
                             </Link></li>
-                            <li><Link to="/">
+                            <li className={Linkness("homepage")}><Link to="/homepage">
                                 <div className={styles.itemFooter}>
-                                    <BiHomeAlt2/>
+                                    <img src={svgIcons1} alt=""/>
                                     <span>منوی اصلی</span>
                                 </div>
                             </Link></li>

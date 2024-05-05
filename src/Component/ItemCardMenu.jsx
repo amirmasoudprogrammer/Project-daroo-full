@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import styles from "../Style/StylesCardMenu.module.css"
 
 const ItemCardMenu = ({data}) => {
-    console.log(data)
+
     return (
       <>
        <Link to={`/homepage/${data.titlelinke}`} className={styles.Cards}>

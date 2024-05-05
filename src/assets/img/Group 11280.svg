@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <filter id="Ellipse_1498" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#1471ea" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_538" x="25" y="20" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_11280" data-name="Group 11280" transform="translate(9117 -17663)">
+    <g transform="matrix(1, 0, 0, 1, -9117, 17663)" filter="url(#Ellipse_1498)">
+      <circle id="Ellipse_1498-2" data-name="Ellipse 1498" cx="28" cy="28" r="28" transform="translate(12 7)" fill="#0157f0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9117, 17663)" filter="url(#Union_538)">
+      <path id="Union_538-2" data-name="Union 538" d="M8,18V12H2A2,2,0,1,1,2,8H8V2a2,2,0,1,1,4,0V8h6a2,2,0,1,1,0,4H12v6a2,2,0,1,1-4,0Z" transform="translate(30 25)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

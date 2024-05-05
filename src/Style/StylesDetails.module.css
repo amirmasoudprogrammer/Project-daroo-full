@@ -7,7 +7,9 @@
 }
 
 .Details .DetailsData .cardDetail {
-
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+    padding: 15px;
 }
 
 hr {
@@ -15,20 +17,27 @@ hr {
 }
 
 .Details .DetailsData .icons {
-    width: auto;
     display: flex;
     align-items: center;
     position: relative;
-    top: 20px;
     justify-content: center;
+    z-index: 10000;
+    width: 100%;
+    height: 20px;
+    margin-top: -4px;
+
+
 }
 
 .Details .textCard {
-    margin-top: 20px;
+    margin-bottom: 1px;
     direction: rtl;
     border-bottom: 1px solid #ECECEC;
-    padding: 8px;
+    padding: 15px;
+    background-color: #ffffff;
     padding-bottom: 21px;
+    padding-top: 20px;
+    margin-top: -15px;
 }
 
 .Details .textCard .textCardDrug {
@@ -54,26 +63,35 @@ hr {
 
 .Details .textCard .textCardDrugEnd .itemtext {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.Details .textCard .textCardDrugEnd .itemtext .liliste {
+    color: #2ED173;
+    width: 6px;
+    height: 6px;
+    border-radius: 24px;
+    background-color: #2ED173;
+
+}
 .Details .textCard .textCardDrugEnd .itemtext span {
     font-size: 13px;
     color: #383838;
+    padding-right: 10px;
 }
 
-.Details .textCard .textCardDrugEnd .itemtext li {
-    color: #2ED173;
-    text-align: center;
-    width: 12px;
-}
+
+
 
 .IMGDetailPro {
     display: flex;
     direction: rtl;
     align-items: normal;
     justify-content: flex-start;
-    margin-top: 15px;
     padding-bottom: 10px;
+    background-color: #ffffff;
+    padding: 15px;
 }
 
 .IMGDetailPro .imgCarda {
@@ -109,7 +127,9 @@ hr {
     display: flex;
     direction: rtl;
     justify-content: space-between;
-    margin-top: 35px;
+    margin-top: 3px;
+    background-color: #ffffff;
+    padding: 15px;
 }
 
 .itemDetail .textDetail {
@@ -139,17 +159,19 @@ hr {
 }
 
 .buttonDetail {
-    margin-top: 50px;
+    margin-top: 25px;
     direction: rtl;
     font-size: 13px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
-.buttonDetail .NumberText{
+
+.buttonDetail .NumberText {
 
 }
-.buttonDetail .NumberText span{
+
+.buttonDetail .NumberText span {
     margin-left: 10px;
 }
 
@@ -174,7 +196,7 @@ hr {
 }
 
 .buttonDetail .LinkeButtons a .plus {
-    background-color: white;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,24 +206,16 @@ hr {
     border-radius: 50px;
 }
 
-.buttonDetail .LinkeButtons a .plus span {
-    color: #0157F0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 18px;
-    margin-left: 10px;
-    margin-top: -4px;
-}
 
 .buttonDetail .LinkeButtons a span {
     margin-right: 10px;
 }
-.CommentItem{
+
+.CommentItem {
 
 }
-.CommentItem .CardDetail{
+
+.CommentItem .CardDetail {
 
 
 }

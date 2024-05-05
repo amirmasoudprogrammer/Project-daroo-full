@@ -12,9 +12,21 @@ const DrugCardItems = ({data}) => {
                         <span>{text}</span>
                     </div>
                     <div className={styles.texts}>
-                        <span>{text3}</span>
-                        <span>{text2}</span>
-                        <span>{text1}</span>
+                        <div className={styles.textitems}>
+                            <span>{text3}</span>
+                        </div>
+                        <div className={styles.liliste}>
+                            <p className={styles.items}/>
+                        </div>
+                        <div className={styles.textitems}>
+                            <span>{text2}</span>
+                        </div>
+                        <div className={styles.liliste}>
+                            <p className={styles.items}/>
+                        </div>
+                        <div className={styles.textitems}>
+                            <span>{text1}</span>
+                        </div>
                     </div>
                 </div>
             </div>

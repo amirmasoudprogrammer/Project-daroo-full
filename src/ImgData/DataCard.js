@@ -20,6 +20,10 @@ import imgMenucard8 from "../assets/img/icons8_customer_support.svg"
 import imgComment1 from "../assets/img/team1.svg"
 import imgComment2 from "../assets/img/team2.svg"
 import imgComment3 from "../assets/img/Rectangle 4078.svg"
+import svgICON3 from "../assets/img/Union 466.svg";
+import svgICON4 from "../assets/img/icons8_notification.svg";
+import svgICON5 from "../assets/img/icons8_communication.svg";
+import svgICON6 from "../assets/img/icons8_user.svg";
 
 
 const dataCards = [
@@ -42,6 +46,13 @@ const dataCards = [
         text: `لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ طراحی گرافیک گفته می‌شو لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ طراحی گرافیک گفته می‌شود`
     }
 
+]
+
+const footeritems = [
+    {id:1, img:svgICON3,title:"منوی اصلی" , path:"homePage"},
+    {id:2, img:svgICON4,title:"اعلان ها" , path:"alert"},
+    {id:3, img:svgICON5,title:"پشتیبانی" , path:"phone"},
+    {id:4, img:svgICON6,title:"پروفایل" , path:"pro"},
 ]
 
 
@@ -121,4 +132,4 @@ const dataComment = [
         text2: "تاپنتادول"
     },
 ]
-export {dataCards, dataMenu, dataMenuPaging, dataDrugs1, dataDrugs2, dataDrugs3, dataDrugs4, dataComment}
+export {dataCards, dataMenu, dataMenuPaging, dataDrugs1, dataDrugs2, dataDrugs3, dataDrugs4, dataComment , footeritems}

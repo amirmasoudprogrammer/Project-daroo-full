@@ -13,7 +13,6 @@ body{
 }
 
 .CardRegistration .IMGpages {
-    background-color: #F5F6FB;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -24,11 +23,13 @@ body{
     height: 40px;
     padding: 20px;
     border-radius: 50px;
+    z-index: 1;
+    top: 18px;
 }
 
 .itemsRegistration {
     width: 335px;
-    margin-bottom: -6px;
+    margin-bottom: -29px;
     background-color: #ffffff;
 }
 
@@ -36,13 +37,14 @@ body{
     padding-right: 15px;
     padding-bottom: 11px;
     padding-top: 11px;
-
+    border-bottom: 1px solid #ECECEC;
 
 }
 
 .itemsRegistration .textItem span {
     font-size: 14px;
     color: #373E46;
+
 }
 
 .itemsRegistration .inputItems {
@@ -94,21 +96,8 @@ body{
     margin-left: 10px;
     width: 16px;
     height: 16px;
-    background-color: #373E46;
     border-radius: 50px;
 }
-
-.itemsRegistration .LinkesItems a .plusItem span {
-    color: white;
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: -2px;
-    margin-right: 1px;
-}
-
 .itemsRegistration .itemdaroo {
     display: flex;
     flex-direction: column;
@@ -196,6 +185,7 @@ body{
     outline: none;
     border: none;
     margin-right: 30px;
+    background: transparent;
 }
 .linkeItems{
     width: 335px;

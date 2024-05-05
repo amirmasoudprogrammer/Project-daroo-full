@@ -4,8 +4,9 @@ import {Link} from "react-router-dom"
 import styles from "../Style/StylesDarooRegistration.module.css"
 import svgItems from "../assets/img/icons8_trash_can.svg"
 import svgItems2 from "../assets/img/check.svg"
-import svgItems3 from "../assets/img/Path 5485.svg"
-import svgItems4 from "../assets/img/icons8_location.svg"
+import svgItems3 from "../assets/img/Group 10458.svg"
+import svgItems4 from "../assets/img/icons8_Location5.svg"
+import svgItems5 from "../assets/img/icons8_add_1666.svg"
 import Modal from "../Component/Modal.jsx";
 
 const DarooRegistration = ({setName}) => {
@@ -30,7 +31,7 @@ const DarooRegistration = ({setName}) => {
                         <div className={styles.LinkesItems}>
                             <Link to="/">
                                 <div className={styles.plusItem}>
-                                    <span>+</span>
+                                    <img src={svgItems5} alt=""/>
                                 </div>
                                 <span>ثبت مشخصات دارو</span>
                             </Link>
@@ -81,6 +82,7 @@ const DarooRegistration = ({setName}) => {
                     <div className={styles.itemsRegistration}>
                         <div className={styles.textItem}>
                             <span> داروی مورد تقاضا :</span>
+
                         </div>
                         <div className={styles.inputItems}>
              <textarea className={styles.inputtext} name="message" rows="9" cols="42"
@@ -91,7 +93,7 @@ const DarooRegistration = ({setName}) => {
                         <div className={styles.LinkesItems}>
                             <Link to="">
                                 <div className={styles.plusItem}>
-                                    <span>+</span>
+                                    <img src={svgItems5} alt=""/>
                                 </div>
                                 <span>ثبت مشخصات دارو</span>
                             </Link>

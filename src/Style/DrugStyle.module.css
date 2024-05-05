@@ -11,32 +11,15 @@ body {
 }
 
 .Wrapper {
-    height: 60px;
-    width: 335px;
     display: flex;
     border: 1px solid #ffffff;
     align-items: center;
     justify-content: space-between;
     direction: rtl;
-    overflow-y: auto;
     background-color: #ffffff;
     text-align: center;
     margin-top: 36px;
     border-radius: 3px;
-}
-
-.Wrapper::-webkit-scrollbar {
-    width: 0;
-}
-
-.Wrapper .items {
-    text-align: center;
-    width: 84px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 12px;
-
 }
 
 .Wrapper .active {
@@ -139,13 +122,15 @@ body {
 .itemCARDdata {
     border-bottom: 1px solid #ECECEC;
 }
-.itemCARDdata  .ItemlINKE{
+
+.itemCARDdata .ItemlINKE {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
-.itemCARDdata .ItemlINKE .itemsCards{
+
+.itemCARDdata .ItemlINKE .itemsCards {
     width: 299px;
     height: 42px;
     display: flex;
@@ -164,6 +149,7 @@ body {
     margin-top: 26px;
 
 }
+
 .DataDrugs .textCard {
     margin-top: 20px;
     direction: rtl;
@@ -195,18 +181,25 @@ body {
 
 .DataDrugs .textCard .textCardDrugEnd .itemtext {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .DataDrugs .textCard .textCardDrugEnd .itemtext span {
     font-size: 13px;
     color: #383838;
+    margin-right: 10px;
 }
 
-.DataDrugs .textCard .textCardDrugEnd .itemtext li {
+.DataDrugs .textCard .textCardDrugEnd .itemtext .liliste {
     color: #2ED173;
-    text-align: center;
-    width: 12px;
+    width: 6px;
+    height: 6px;
+    border-radius: 24px;
+    background-color: #2ED173;
+
 }
+
 
 .DataDrugs .buttons {
     display: flex;
@@ -232,7 +225,7 @@ body {
 }
 
 .DataDrugs .buttons .buttontext2 {
-    display: flex
+    display: flex;
 }
 
 .DataDrugs .buttons .buttontext2 span {
@@ -254,34 +247,21 @@ body {
     cursor: pointer;
     border-radius: 6px;
 }
+
 .DataDrugs .buttons .buttonsitem a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.DataDrugs .buttons .buttonsitem a svg{
+
+.DataDrugs .buttons .buttonsitem a svg {
     margin-right: 8px;
 }
 
-.DataDrugs .buttons .buttonClick{
-    background-color: #0157F0;
-    width: 56px;
-    height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 50px;
-    box-shadow: 0 3px 8px #1471EA;
+.DataDrugs .buttons .buttonClick {
     cursor: pointer;
-}
-.DataDrugs .buttons .buttonClick span{
-    font-size: 40px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -6px;
-    color: white;
+    position: fixed;
+    top: 78%;
+    right: 0;
 
 }

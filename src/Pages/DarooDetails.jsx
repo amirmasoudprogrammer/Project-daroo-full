@@ -7,6 +7,7 @@ import {Link} from "react-router-dom";
 import svgIMg1 from "../assets/img/icons8_Sorting_Arrows_Horizontal.svg"
 import svgIMg2 from "../assets/img/Rectangle 4078.svg"
 import svgIMg3 from "../assets/img/icons8_clock_2.svg"
+import svgIMg4 from "../assets/img/icons8_add_1.png"
 import CardDetails from "../Component/CardDetails.jsx";
 
 const DarooDetails = ({setName}) => {
@@ -37,11 +38,15 @@ const DarooDetails = ({setName}) => {
                             </div>
                             <div className={styles.textCardDrugEnd}>
                                 <div className={styles.itemtext}>
-                                    <li></li>
+                                    <div className={styles.liliste}>
+                                        <p className={styles.items}/>
+                                    </div>
                                     <span>کپسول آموکسی‌سیلین 300</span>
                                 </div>
                                 <div className={styles.itemtext}>
-                                    <li></li>
+                                    <div className={styles.liliste}>
+                                        <p className={styles.items}/>
+                                    </div>
                                     <span>آزیترومایسین</span>
                                 </div>
 
@@ -72,6 +77,7 @@ const DarooDetails = ({setName}) => {
                                 <span>  2 ساعت پیش </span>
                             </div>
                         </div>
+
                         <div className={styles.buttonDetail}>
                             <div className={styles.NumberText}>
                                 <span>15 درخواست ثبت شده است</span>
@@ -80,7 +86,7 @@ const DarooDetails = ({setName}) => {
                             <div className={styles.LinkeButtons}>
                                 <Link to="/homepage/drug_exchange/details/Registration">
                                     <div className={styles.plus}>
-                                        <span>+</span>
+                                        <img src={svgIMg4} alt=""/>
                                     </div>
                                     <span>ثبت درخواست تبادل</span>
                                 </Link>

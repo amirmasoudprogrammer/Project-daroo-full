@@ -4,8 +4,33 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 25px;
-
+    padding-bottom: 10px;
 }
+.Cards:nth-child(1) .Images{
+background-color: #F3EFFF;
+}
+.Cards:nth-child(2) .Images{
+background-color: #FFF1F0;
+}
+.Cards:nth-child(3) .Images{
+background-color: #E8FFF1;
+}
+.Cards:nth-child(4) .Images{
+background-color: #FFF9EC;
+}
+.Cards:nth-child(5) .Images{
+background-color: #E8FFF1;
+}
+.Cards:nth-child(6) .Images{
+background-color: #E6EFFD;
+}
+.Cards:nth-child(7) .Images{
+background-color: #F3EFFF;
+}
+.Cards:nth-child(8) .Images{
+background-color: #FFF1F0;
+}
+
 
 .Cards .Images {
     background-color: #E6EFFD;
@@ -22,4 +47,5 @@
     font-weight: 100;
     color: #3E3E3E;
     margin-top: 5px;
+    margin-right: 0;
 }

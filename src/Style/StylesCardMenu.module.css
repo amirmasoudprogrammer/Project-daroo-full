@@ -7,6 +7,42 @@
 
 }
 
+.Cards:nth-child(1) .Images {
+    background-color: #E6EFFD;
+
+}
+
+.Cards:nth-child(2) .Images {
+    background-color: #E8FFF1;
+
+}
+
+.Cards:nth-child(3) .Images {
+    background-color:#FFF1F0;
+
+}
+
+.Cards:nth-child(4) .Images {
+    background-color: #F3EFFF;
+
+}
+.Cards:nth-child(5) .Images {
+    background-color: #FFF1F0;
+
+}
+.Cards:nth-child(6) .Images {
+    background-color: #E6EFFD;
+
+}
+.Cards:nth-child(7) .Images {
+    background-color: #FFF9EC;
+
+}
+.Cards:nth-child(8) .Images {
+    background-color:#FFEEF4;
+
+}
+
 .Cards .Images {
     background-color: #E6EFFD;
     width: 41px;

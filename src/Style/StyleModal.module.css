@@ -9,6 +9,7 @@
     display: flex;
     align-items: self-end;
     justify-content: center;
+    z-index: 100000;
 }
 
 .Modale .menuDashbord {

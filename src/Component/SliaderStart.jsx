@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import styles from "../Style/SliderCards.module.css"
 import PngItems from "../assets/img/Group 9969.png"
 import {useNavigate} from "react-router-dom";

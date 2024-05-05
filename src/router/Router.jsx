@@ -26,8 +26,6 @@ const Router = () => {
                     <Route path="/homepage/drug_exchange/details/Registration" element={<Daroo_Registration setName={setName}/>}/>
                 </Route>
                 <Route path="/homepage/Medical_Information/" element={<Medical/>}/>
-
-
             </Routes>
 
 
